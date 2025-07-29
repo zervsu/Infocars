@@ -1,0 +1,105 @@
+@media (max-width:1024px){
+
+
+body {
+  overflow-x: hidden;
+}
+
+.catalogo {
+  flex-wrap: initial ;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: row;
+  display: flex;
+  width: 100vw;
+}
+
+.card {
+  width: calc(33.33% - 20px);
+  height: auto;
+  margin: 10px; 
+}
+
+.img-card {
+  width: 100%;
+  height: auto;
+}
+
+.carview iframe {
+  width: 90vw !important;
+  height: 40vh !important;
+}
+
+.conteudo {
+  flex-direction: row;
+  height: auto;
+  padding: 0px;
+  width: 100%;
+}
+
+.infos {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.footer-container {
+  flex-direction: column; 
+  gap: 0px;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-bottom {
+  flex-direction: column;
+  gap: 0px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  background-color: rgba(0,0,0,0.7);
+  height: 60px;
+} 
+
+.parallax {
+  background-attachment: scroll;
+}
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: calc(50% - 20px);
+  }
+
+  .parallax, .toyota, .nissan, .lexus, .mitsubishi, .honda {
+    height: 50vh;
+  }
+
+  .carview {
+    height: auto;
+    margin-left: 20px;
+  }
+
+  .car-name h2 {
+    font-size: 1.2em;
+  }
+
+  .infos{
+    gap: 5px;
+  }
+  .infos p {
+    font-size: 0.9em;
+  }
+}
+@media (max-width: 480px) {
+  .card {
+    width: 100%; /* 1 por linha */
+  }
+
+  .catalogo {
+    padding: 10px;
+  }
+  .infos{
+    height: auto;
+  }
+}
