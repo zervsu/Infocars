@@ -1,2 +1,2 @@
 # Infocars
-uma landing page testando o efeito parallax
+Landing page testando um efeito parallax
