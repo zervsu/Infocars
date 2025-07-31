@@ -172,3 +172,6 @@ function switchcar(carro) {
       carro: `<div class="sketchfab-embed-wrapper"> <iframe title="2011 Lexus LFA" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/83d062d1cd144e6a944c7415ef864889/embed?autospin=1&autostart=1&preload=1&transparent=1&ui_theme=dark" id="car"> </iframe> </div>`
     }
   };
+  window.addEventListener("DOMContentLoaded" , () => {
+    switchcar('git');
+  })
