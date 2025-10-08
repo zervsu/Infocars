@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> InfoCars</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="style/style.css">
+
+
+</head>
+<body class="body">
+  <header class="header">
+    <div class="logo">
+      <img class="logo-img" src="public/img/logo.png" alt="">
+    </div>
+  </header>
+  <main class="main">
+      <div class="parallax" ></div>
+  <section class="catalogo swiper">
+  <div class="swiper-wrapper">
+
+    <div class="swiper-slide card">
+      <img class="img-card" src="public/img/toyota.png" alt="Toyota" onclick="switchcar('toyota')">
+    </div>
+    <div class="swiper-slide card">
+      <img class="img-card" src="public/img/honda.png" alt="Honda" onclick="switchcar('honda')">
+    </div>
+    <div class="swiper-slide card">
+      <img class="img-card" src="public/img/mitsubishi-Logo.png" alt="Mitsubishi" onclick="switchcar('Mitsubishi')">
+    </div>
+    <div class="swiper-slide card">
+      <img class="img-card" src="public/img/lexus.png" alt="Lexus" onclick="switchcar('lexus')">
+    </div>
+    <div class="swiper-slide card">
+      <img class="img-card" src="public/img/nissan.png" alt="Nissan" onclick="switchcar('nissan')">
+    </div>
+    <div class="swiper-slide card">
+      <img class="img-card" src="public/img/logo-subaru.png" alt="subaru" onclick="switchcar('subaru')">
+    </div>
+    <div class="swiper-slide card">
+      <img class="img-card" src="public/img/logo-mazda.png" alt="mazda" onclick="switchcar('mazda')">
+    </div>
+    <div class="swiper-slide card">
+      <img class="img-card" src="public/img/acura-logo.png" alt="acura" onclick="switchcar('acura')">
+    </div>
+  </div>
+   
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <div class="swiper-pagination"></div>
+  </section>
+  <div class="carview">
+    <div class="car-name">
+    </div>
+    <div class="sketchfab-embed-wrapper">
+       <iframe id="car">
+
+       </iframe> 
+      </div>
+  </div>
+  <div class="conteudo" id="car-info">
+    <div class="infos">
+
+    </div>
+    <div class="infos">
+
+    </div>
+    <div class="infos">
+
+    </div>
+  </div>
+      <div class="parallax" id="parallax2"></div>
+  </main>
+    <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="/about">Sobre nós</a></li>
+          <li><a href="/services">Serviços</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contato</h4>
+        <p>
+          São Paulo, SP<br>
+          <a href="tel:+5513996111346">+55 (13) 99611‑1346</a><br>
+          <a href="mailto:zeversu@gmail.com">zeversu@gmail.com</a>
+        </p>
+      </div>
+
+      <div class="footer-section">
+        <h4>Conecte-se</h4>
+        <div class="social-links">
+        <a href="https://www.instagram.com/_.wews._/" target="_blank" rel="noopener noreferrer">
+          Instagram
+        </a>
+          <a href="https://www.linkedin.com/in/weverson-rodrigues-b518a6282" target="_blank" rel="noopener noreferrer">
+            LinkedIn
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="/privacy">Política de Privacidade</a></li>
+          <li><a href="/terms">Termos de Uso</a></li>
+          <li><a href="/cookies">Política de Cookies</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="footer-bottom">
+      <p>© 2025 InfoCars Inc. Todos os direitos reservados.</p>
+      <a class="back-to-top" href="#top">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>  
+</body>
+</html>
