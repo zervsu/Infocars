@@ -236,7 +236,7 @@ function switchcar(carro) {
     },
     subaru: {
       titulo: "Subaru 22b",
-      carro: `<div class="sketchfab-embed-wrapper"> <iframe title="1998 Subaru IMPREZA 22B STi Version" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/66bd94bdd92a4b79a39cd0307870b4eb/embed?autospin=1&autostart=1&preload=1&transparent=1&ui_theme=dark"> </iframe> </div>`
+      carro: `<div  class="sketchfab-embed-wrapper"> <iframe title="1998 Subaru IMPREZA 22B STi Version" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/66bd94bdd92a4b79a39cd0307870b4eb/embed?autospin=1&autostart=1&preload=1&transparent=1&ui_theme=dark"> </iframe> </div>`
     },
     mazda: {
       titulo: "mazda rx7",
