@@ -175,7 +175,7 @@ function switchcar(carro) {
 
   parallaxes.forEach(parallax => {
     parallax.classList.remove("toyota", "mitsubishi", "lexus", "honda", "nissan", "subaru", "mazda", "acura");
-    parallax.classList.add(carro);
+    parallax.classList.add(carro.toLowerCase());
   });
 
   const infoDiv = document.getElementById("car-info");
@@ -226,8 +226,7 @@ function switchcar(carro) {
   
     honda: {
       titulo: "Honda NSX",
-      carro: `<div class="sketchfab-embed-wrapper"> <iframe title="Honda NSX-R (2002)" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/3dbd02078d764e0781e62d2c7466038b/embed?autospin=1&autostart=1&preload=1&transparent=1&ui_theme=dark"> </iframe> `
-        
+      carro: `<div class="sketchfab-embed-wrapper"> <iframe title="Honda NSX-R (2002)" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/3dbd02078d764e0781e62d2c7466038b/embed?autospin=1&autostart=1&preload=1&transparent=1&ui_theme=dark"> </iframe> </div>`
     },
   
     lexus: {
