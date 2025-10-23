@@ -1,4 +1,3 @@
-@import url(responsive.css);
 body{
   margin: 0;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -35,7 +34,7 @@ body{
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-  background-image: url("/infocars/public/img/evo-ix.jpg"); 
+  background-image: url("../public/img/evo-ix.jpg"); 
   height: 80vh;
   background-attachment: fixed;
   background-position: center;
@@ -127,7 +126,7 @@ body{
 }
 
 .toyota{
-  background-image: url("/infocars/public/img/supra.jpg");
+  background-image: url("../public/img/supra.jpg");
   width: 100%;
   position: relative;
   z-index: 2;
@@ -142,7 +141,7 @@ body{
 }
 
 .nissan{
-  background-image: url("/infocars/public/img/350z.jpg");
+  background-image: url("../public/img/350z.jpg");
   width: 100%;
   position: relative;
   z-index: 2;
@@ -157,7 +156,7 @@ body{
 }
 
 .lexus{
-  background-image: url("/infocars/public/img/lfa.jpg");
+  background-image: url("../public/img/lfa.jpg");
   width: 100%;
   position: relative;
   z-index: 2;
@@ -172,7 +171,7 @@ body{
 }
 
 .mitsubishi{
-  background-image: url("/infocars/public/img/evo-ix.jpg");
+  background-image: url("../public/img/evo-ix.jpg");
   width: 100%;
   position: relative;
   z-index: 2;
@@ -187,7 +186,7 @@ body{
 }
 
 .honda{
-  background-image: url("/infocars/public/img/nsx.jpg");
+  background-image: url("../public/img/nsx.jpg");
   width: 100%;
   position: relative;
   z-index: 2;
@@ -201,7 +200,7 @@ body{
   background-size: cover;
 }
 .subaru{
-  background-image: url("/infocars/public/img/impreza.png");
+  background-image: url("../public/img/impreza.png");
   width: 100%;
   position: relative;
   z-index: 2;
@@ -215,7 +214,7 @@ body{
   background-size: cover;
 }
 .mazda{
-  background-image: url("/infocars/public/img/rx7.png");
+  background-image: url("../public/img/rx7.png");
   width: 100%;
   position: relative;
   z-index: 2;
@@ -229,7 +228,7 @@ body{
   background-size: cover;
 }
 .acura{
-  background-image: url("/infocars/public/img/integra.png");
+  background-image: url("../public/img/integra.png");
   width: 100%;
   position: relative;
   z-index: 2;
