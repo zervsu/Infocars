@@ -251,11 +251,11 @@ window.addEventListener("DOMContentLoaded", () => {
     switchcar('mitsubishi');
 
 const swiper = new Swiper('.catalogo.swiper', {
-  slidesPerView: 6, // máximo visível em telas grandes
+  slidesPerView: 6, 
   spaceBetween: 20,
   loop: true,
-  loopedSlides: 8, // força pré-carga dos duplicados
-  speed: 600, // suaviza a transição
+  loopedSlides: 8, 
+  speed: 600, 
   autoplay: {
     delay: 2500,
     disableOnInteraction: false,
@@ -279,5 +279,4 @@ const swiper = new Swiper('.catalogo.swiper', {
   },
 });
 
-    
 });
